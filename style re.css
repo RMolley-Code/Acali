@@ -1,0 +1,593 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'spartan', sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    line-height: 64px;
+    color: #1a1a1a;
+
+}
+ 
+h2 {
+    font-size: 46px;
+    line-height: 54px;
+    color: #000000;
+}
+
+h4 {
+    font-size: 20px;
+    color: hsl(0, 0%, 0%);
+}
+
+h6 {
+    font-weight: 700;
+    font-size: 12px;
+}
+
+p {
+    font-size: 16px;
+    color: rgb(202, 202, 202);
+    margin: 15px 0 20px 0;
+}
+
+.section-p1 {
+     padding: 40px 80px;
+}
+
+.section-m1 {
+    margin: 40px 0;
+}
+ button {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 30px;
+    color: #ffffff;
+    background-color: #3056ff;
+    border-radius: 14px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+     
+
+
+ }
+
+ #images:hover {
+    box-shadow: #000000;
+ }
+
+
+ button:hover {
+    color: rgb(147, 184, 216);
+ } 
+ 
+
+.button .normal :hover {
+    color: rgb(147, 184, 216);
+}
+
+
+button.normal {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 30px;
+    color: #1a1a1a;
+    background-color: #ffffff;
+    border-radius: 14px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+    border-radius: 3px;
+}
+
+button.white {
+    font-size: 13px;
+    font-weight: 600;
+    padding: 11px 18px;
+    color: #fff;
+    background-color: transparent;
+    cursor: pointer;
+    border: 4px solid #ab1010;
+    outline: none;
+    transition: 0.2s;
+}
+
+body{
+    width: 100%;
+}
+
+
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background: white;
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+
+    } 
+
+    
+    #navbar {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #navbar li {
+        list-style: none;
+        padding: 0 20px;
+        position: relative;
+    }
+
+    #navbar li a {
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: 600;
+        color: #1a1a1a;
+        transition: 0.3s ease;
+    }
+
+    #navbar li a:hover,
+    #navbar li a.active{
+        color: rgb(88, 116, 255);
+    }
+
+    #navbar li a.active::after,
+    #navbar li a:hover::after{
+        content: "";
+        width: 30%;
+        height: 2px;
+        background: rgb(88, 116, 255) ;
+        position: absolute;
+        bottom: -4px;
+        left: 20px;
+
+    }
+
+    #study {
+        background-image: url("images/study\ section\ background\ photo\ .png");
+        height: 90vh;
+        width: 100%;
+        background-size: cover;
+        background-position: top 25% right 0;
+        padding: 0 80px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    #hero {
+        background-image: url("images/hero\ section\ image\ .png");
+        height: 90vh;
+        width: 100%;
+        background-size: cover;
+        background-position: top 25% right 0;
+        padding: 0 80px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+
+    }
+    
+    #hero h4 {
+        padding-bottom: 15px;
+    }
+    
+    #hero h1 {
+        color: rgb(255, 255, 255) ;
+    
+    } 
+
+    #hero button {
+        background-image: url("");
+        background-color: rgb(0, 145, 255);
+        color: rgb(255, 255, 255);
+        border: 0;
+        border-radius: 4px;
+        padding: 14px 80px 14px 65px;
+        background-repeat: no-repeat;
+        cursor: pointer;
+        font-weight: 700;
+        font-size: 15px
+
+}
+
+#feature.section-p1 :hover{
+    color: rgb(106, 156, 255) ;
+
+}
+
+.feature.section-p1 :active {
+    opacity: 0.5;
+}
+
+
+ 
+#feature.section-p1 {
+    cursor: pointer;   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 30%;
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+    align-content: center;
+    padding: 20px 80px
+    
+    
+    
+    
+     
+    
+}
+
+#section-p2  {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 30%;
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+    align-content: center;
+    padding: 20px 80px
+       
+}
+
+#courses .img2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 8px;   
+}
+
+
+
+#banner {
+    display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     background-image: url(images/banner\ sale\ 70.png);
+     width: 100%;
+     height: 40vh;
+     background-size: cover;
+     background-position: center;
+}
+
+#banner h4 {
+    color: #1a1a1a;
+    font-size: 16px;
+}
+
+#banner h4 {
+    color: rgb(28, 175, 243);
+    font-size: 30px;
+    padding: 10px 0;
+}
+
+
+
+#banner h2 {
+    color: #fccb07;
+}
+
+#banner h2 span {
+    color: rgb(97, 134, 246);
+}
+
+#banner button:hover {
+    background-color: #fcd200;
+    color: #E3E6F3;
+}
+
+
+#sm-banner {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#sm-banner .banner-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url(images/math.png);
+    min-width: 580px;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+}
+
+#sm-banner h4 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+#sm-banner h2 {
+    color: #fff;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+#sm-banner span {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+
+#sm-banner .banner-box:hover button {
+    background-color: #088178;
+    border: 1px solid #088178;
+}
+
+
+
+#banner3 {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 80px ;
+} 
+
+#banner4 {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 80px ;
+}
+
+#banner4 :hover {
+    box-shadow: 10px 10px 15px rgb(59, 59, 59);
+}
+
+
+#banner3 .banner-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url();
+    min-width: 30%;
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+
+#banner4 .banner-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    min-width: 30%;
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#banner4 :hover{
+    box-shadow: rgb(54, 54, 54);
+}
+
+#banner4 .banner-box {
+    background-image: url(images/math.png)
+}
+
+#banner4 .banner-box3 {
+    background-image: url(images/language\ banner.png);
+}
+#banner4 .banner-box5 {
+    background-image: url(images/AI\ image\ banner\ .png);
+}
+
+#banner4 h2 {
+    color: #fff;
+    font-weight: 900;
+    font-size: 22px;
+}
+
+#banner3 h2 {
+  color: #fff;
+  font-weight: 900;
+  font-size: 22px;
+}
+
+#banner3 h3 {
+    color: rgb(250, 39, 39);
+    font-weight: 800;
+    font-size: 15px;
+    
+}
+
+#newsletter {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-image:url(images/banner\ sale\ 22.png);
+    background-repeat: no-repeat;
+    background-position: 20% 30%;
+    background-color: #1a1a1a;
+}
+
+#newsletter h4{
+    font-size: 22px;
+    font-weight: 700;
+    color: #fff;
+}
+
+#newsletter p{
+    font-size: 14px;
+    font-weight: 600;
+    color: #9ba0a4;
+
+}
+
+
+#newsletter p span {
+    color: #e6c50a;
+}
+
+#newsletter .form {
+    display: flex;
+    width: 40%;
+}
+
+#newsletter input {
+    height: 3.125rem;
+    padding: 0 1.25em;
+    font-size: 14px;
+    width: 100%;
+    border: 1px solid transparent;
+    border-radius: 4px;  
+    outline: none;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+#newsletter button {
+    background-color: #088178;
+    color: #E3E6F3;
+    white-space: nowrap;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #131416; /* Dark background */
+    color: white; /* White text */
+    padding: 20px 0; /* Padding for top and bottom */
+    text-align: center; /* Center align text */
+}
+
+.footer-content {
+    max-width: 1200px; /* Max width for content */
+    margin: auto; /* Center the content */
+}
+
+.footer-links {
+    list-style: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+}
+
+.footer-links li {
+    display: inline; /* Display links inline */
+    margin: 0 15px; /* Space between links */
+}
+
+.footer-links a {
+    color: white; /* White text color */
+    text-decoration: none; /* Remove underline */
+}
+
+.footer-links a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+/* Responsive Styles */
+
+/* Navbar for smaller screens */
+@media (max-width: 768px) {
+    #navbar {
+        display: flex;
+        flex-direction: column; /* Stack links vertically */
+        align-items: center; /* Center align items */
+    }
+
+    .nav-item {
+        margin: 10px 0; /* Space between items */
+    }
+
+    #contact {
+        padding: 15px; /* Adjust padding for smaller screens */
+    }
+
+    #contact h1 {
+        font-size: 1.5em; /* Adjust heading size */
+    }
+
+    #contact input,
+    #contact textarea {
+        font-size: 0.9em; /* Adjust font size for inputs */
+    }
+
+    #contact button {
+        font-size: 0.9em; /* Adjust font size for button */
+    }
+}
+
+/* Hero Section for smaller screens */
+@media (max-width: 480px) {
+    #hero {
+        padding: 30px 10px; /* Adjust padding for smaller screens */
+    }
+
+    #hero h1 {
+        font-size: 1.8em; /* Adjust heading size */
+    }
+}
+
+/* Banner Section for smaller screens */
+@media (max-width: 600px) {
+    #banner4 {
+        flex-direction: column; /* Stack banners vertically */
+    }
+
+    .banner-box {
+        width: 90%; /* Full width for banners */
+        margin: 10px auto; /* Center the banners */
+    }
+}
+
+/* Feature Section for smaller screens */
+@media (max-width: 600px) {
+    .fe-box {
+        margin: 10px 0; /* Space between feature boxes */
+    }
+}
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
